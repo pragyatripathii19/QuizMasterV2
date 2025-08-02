@@ -1,0 +1,13 @@
+cd frontend ---> npm run serve
+python app.py
+python -m backend.init_db
+pip freeze | grep -i cors
+
+How someone else uses it: When someone receives your zipped code, they'll navigate to the directory containing your frontend code 
+(which has the package.json file) and run npm install. This command will read the package.json file and install all the listed 
+JavaScript dependencies.
+
+npm run lint -- --fix
+
+admin@example.com
+adminpassword123
